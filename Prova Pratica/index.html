@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade: Prova Prática</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+
+        <header>
+
+            <h1>Verificador de Idade</h1> <br>
+
+        </header>
+
+        <main>
+            <br>
+            <form>
+                <div id="app"> 
+
+                    <label for="dayInput">Dia:</label>
+                    <input type="number" id="dayInput" min="1" max="31">
+
+                    <label for="monthInput">Mês:</label>
+                    <input type="number" id="monthInput" min="1" max="12">
+
+                    <label for="yearInput">Ano:</label>
+                    <input type="number" id="yearInput" min="1900" max="2100">
+
+                    <button id="checkButton">Verificar Idade</button> <br>
+                    <p id="resultMessage" > </p>
+
+                    <button id="resetButton">Resetar Data</button>
+                </div>
+            </form>
+
+
+
+        </main>
+
+        <footer>
+
+
+        </footer>
+
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"> </script>
+        <script> new window.VLibras.Widget('https://vlibras.gov.br/app') </script>
+
+        <script src="script.js"></script>
+
+    </body>
+
+</html>
